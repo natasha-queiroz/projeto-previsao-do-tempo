@@ -5,10 +5,10 @@ body{
 }
 input{
     border-radius: 20px;
-    height: 40px;
+    height: 35px;
     margin-top: 10px;
     margin-left: 20px;
-    width: 200px;
+    width: 230px;
 }
 .botaobusca{
     border: none;
@@ -17,7 +17,7 @@ input{
     border-radius: 50px;
     cursor: pointer;
     float: right;
-    background-color: #7c7c7c;
+    
 
 }
 .imgbusca{
@@ -43,7 +43,7 @@ h1{
 .containerdaimg{
     display: block;
     margin-left: 12px;
-    background-color: blue;
+    background-color: rgb(68, 68, 208);
     border-radius: 20px;
     color: white;
     font-size: 20px;
@@ -53,38 +53,41 @@ h1{
     
 }
 .umidade{
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-bottom: 15px;
     display: inline-block;
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
+    
 }
 .tempmax{
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     margin-top: 20px;
     margin-bottom: 15px;
     display: inline-block;
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
+    
 }
 .tempmin{
-    width: 100px;
-    height: 30px;
-    margin-left: 10px;
+    width: 120px;
+    height: 40px;
+    margin-left: 35px;
     display: inline-block;
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
+    
 }
 .vento{
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     display: inline-block;
     text-align: center;
     box-shadow: 2px 2px 5px black;
