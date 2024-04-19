@@ -1,0 +1,92 @@
+
+body{
+    background-color: rgba(87, 87, 221, 0.873);
+    
+}
+input{
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+.botaobusca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    float: right;
+    background-color: #7c7c7c;
+
+}
+.imgbusca{
+    width: 30px;
+       
+
+}
+main{
+    margin: auto;
+    background-color: rgb(243, 243, 251);
+    border-radius: 20px;
+    width: 320px;
+    height: 450px;
+
+}
+h1{
+    text-align: center;
+    
+}
+.grau{
+   
+}
+.containerdaimg{
+    display: block;
+    margin-left: 12px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    width: 280px;
+    height: 100px;
+    text-align: right;
+    
+}
+.umidade{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
+.tempmax{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
+.tempmin{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
+.vento{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
