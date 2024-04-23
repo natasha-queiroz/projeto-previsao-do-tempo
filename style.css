@@ -38,11 +38,12 @@ h1{
     
 }
 .grau{
-   
+   text-align: center;
+   margin-left: 200px;
 }
 .containerdaimg{
     display: block;
-    margin-left: 12px;
+    margin-left: 20px;
     background-color: rgb(68, 68, 208);
     border-radius: 20px;
     color: white;
@@ -50,6 +51,7 @@ h1{
     width: 280px;
     height: 100px;
     text-align: right;
+    box-shadow: 1px 1px 5px black;
     
 }
 .umidade{
