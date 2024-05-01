@@ -25,6 +25,10 @@ input{
        
 
 }
+.nuvem{
+    width: 70px;
+
+}
 main{
     margin: auto;
     background-color: rgb(243, 243, 251);
