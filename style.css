@@ -35,6 +35,7 @@ main{
     border-radius: 20px;
     width: 320px;
     height: 450px;
+    box-shadow: 2px 2px 5px black;
 
 }
 h1{
@@ -44,6 +45,7 @@ h1{
 .grau{
    text-align: center;
    margin-left: 200px;
+   
 }
 .containerdaimg{
     display: block;
@@ -68,7 +70,7 @@ h1{
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
-    
+    background-color: cyan;
 }
 .tempmax{
     width: 120px;
@@ -79,7 +81,7 @@ h1{
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
-    
+    background-color: cyan;
 }
 .tempmin{
     width: 120px;
@@ -89,7 +91,7 @@ h1{
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
-    
+    background-color: cyan;
 }
 .vento{
     width: 120px;
@@ -98,4 +100,5 @@ h1{
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 20px;
+    background-color: cyan;
 }
