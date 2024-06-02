@@ -5,28 +5,38 @@ body{
 }
 input{
     border-radius: 20px;
-    height: 35px;
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 230px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 270px;
+    border-style: none;
 }
-.localizacao{
 
-}
+
+
 .botaobusca{
-    border: none;
-    outline: none;
-    padding: 10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 16px;
+    right: 8px;
     border-radius: 50px;
     cursor: pointer;
-    float: right;
-    
+    background-color: white;
+    border: none;
+
+}
+
+.botaobusca:active{
+    border: 4px solid white;
 
 }
 .imgbusca{
-    width: 30px;
-       
-
+    width: 26px;
+    position: relative;
+    top: 3px;
+    left: 2px;
 }
 .nuvem{
     width: 70px;
@@ -34,7 +44,7 @@ input{
 }
 main{
     margin: auto;
-    background-color: rgb(243, 243, 251);
+    /* background-color: rgb(243, 243, 251); */
     border-radius: 20px;
     width: 360px;
     height: 450px;
