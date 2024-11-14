@@ -3,6 +3,7 @@ body{
     background-color: rgba(87, 87, 221, 0.873);
     
 }
+
 input{
     border-radius: 20px;
     height: 40px;
@@ -60,6 +61,7 @@ h1{
    margin-left: 200px;
    
 }
+
 .containerdaimg{
     display: block;
     margin-left: 20px;
@@ -73,6 +75,7 @@ h1{
     box-shadow: 1px 1px 5px black;
     
 }
+
 .umidade{
     width: 120px;
     height: 40px;
@@ -85,6 +88,7 @@ h1{
     border-radius: 20px;
     background-color: cyan;
 }
+
 .tempmax{
     width: 120px;
     height: 40px;
@@ -96,6 +100,7 @@ h1{
     border-radius: 20px;
     background-color: cyan;
 }
+
 .tempmin{
     width: 120px;
     height: 40px;
@@ -106,6 +111,7 @@ h1{
     border-radius: 20px;
     background-color: cyan;
 }
+
 .vento{
     width: 120px;
     height: 40px;
