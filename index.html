@@ -4,33 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <main>
-        <!-- <img class="localizacao" src="location_map_marker_icon_131522.png" alt="localizacao"> -->
-        <input type="text" name="" id="" placeholder="digite o nome da sua cidade">
-        
-        
-        <button class="botaobusca">
-            <img class="imgbusca" src="lupa.png" alt="buscar">
-        </button>
+    <div id="container">
+        <form action="search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="search" name="city_name" id="city_name" placeholder="Buscar cidade">
 
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
 
-        <h1>Tempo em Fortaleza</h1>
-        <div class="containerdaimg">
-            <p class="grau">21° C</p>
-            <marquee behavior="" direction=""><img class="nuvem" src="apple-touch-icon.png" alt=""></marquee>
-            
+        </form>
+
+        <div id="weather">
+            <h1 id="title">Fortaleza - ce</h1>
+
+            <div id="infos">
+                <div id="temp">
+                    <img id="temp_img" src="" alt="">
+
+                    <div>
+                        <p id="temp_value">
+                            32 <sup>C°</sup>
+                        </p>
+                        <p id="temp_descricao">
+                            Ensolarado
+                        </p>
+                    </div>
+                </div>
+
+                <div id="other_infos">
+                    <div class="info">
+                        <i id="temp_max_ico" class="fa-solid fa-temperature-high"></i></i>
+
+                        <div>
+                            <h2>Temp. max</h2>
+                            <p id="temp_max">
+                                32 <sup>C°</sup>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <i id="temp_min_ico" class="fa-solid fa-temperature-low"></i></i>
+
+                        <div>
+                            <h2>Temp. min</h2>
+                            <p id="temp_max">
+                                12 <sup>C°</sup>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <i id="humidade_ico" class="fa-solid fa-droplet"></i></i>
+
+                        <div>
+                            <h2>Humidade</h2>
+                            <p id="humidade">
+                                50%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <i id="wind_ico" class="fa-solid fa-wind"></i></i>
+
+                        <div>
+                            <h2>Vento</h2>
+                            <p id="wind">
+                                50 Km/h
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class="umidade">umidade: 76%</div>
-        <div class="tempmax">temp. mmax</div>
-        <div class="tempmin">temp. min</div>
-        <div class="vento">vento</div>
-
-    </main>
+        <div id="alert"></div>
+    </div>
+   
 
 </body>
 </html>
