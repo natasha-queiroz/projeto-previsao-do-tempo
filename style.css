@@ -16,6 +16,7 @@ body{
     background-color: aliceblue;
     border-radius: 20px;
     padding: 10px;
+    margin-bottom: 300px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0, 1);
 }
 
@@ -67,7 +68,8 @@ body{
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    background-color: rgb(74, 74, 197);
+    /* background-color: rgb(74, 74, 197); */
+    background-color: #0285c7;
     color: #fff;
     border-radius: 20px;
     padding: 20px;
